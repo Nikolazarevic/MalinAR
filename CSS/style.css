@@ -1,0 +1,938 @@
+body {
+	height: auto;
+ 	width: 100%;
+
+ }
+
+#container {
+	width: 100%;
+	max-width: 1500px;
+	height: auto;
+	margin: 0 auto;
+
+}
+/**************************HEADER**************************/
+#header{
+	width: 100%;
+	height: 100px;
+	background-color: #404040;
+	position: fixed;
+	z-index: 99;
+	opacity: 0.9;
+	margin-top: 0px;
+}
+
+#header .logo {
+	width: 200px;
+	height: 100%;
+	position: absolute;
+	background-color: #;
+	text-align: center;
+}
+
+#header .logo img {
+	height: 100%;
+
+}
+/**********NAV-BAR**********/
+#header .nav {
+	height: 100%;
+	width: 100%;
+	margin: 0px auto 10px;
+	position: absolute;
+}
+
+#header .nav ul {
+	text-decoration: none;
+	list-style: none;
+	line-height: 100px;
+	font-size: 19px;
+	margin: 0 auto;
+	width: auto;
+	height: 100%;
+	text-align: center;
+}
+#header .nav ul li {
+	display: inline;
+	list-style: none;
+	text-align: center;
+	margin-left: 50px;
+
+}
+#header .nav ul li a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    
+}
+
+#header .nav ul li:hover a:hover {
+	color: #f13f54;
+}
+
+#header .nav ul li a:after {
+    content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 0px;
+	width: 100%;
+	background: transparent;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+#header .nav ul li a:hover:after{
+    height: 10px;
+	background: #f13f54;
+    
+}
+
+/**********END-NAV-BAR**********/
+
+/**************************END-HEADER**************************/
+
+
+
+/**************************SECTION-ONE**************************/
+/*Wallpaper*Title*Page*/
+
+
+#sectOne {
+	background-image: url("../Images/Health-Coaching-Image-1.jpg"); 
+	background-size: 100%;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-attachment: fixed;
+}
+
+/**********Title**********/
+#sectOne .inner {
+	width: auto;
+	height: 200px;
+	background-color: #;
+	position: relative;
+	top: 44%;
+}
+
+#sectOne .inner h3 {
+	font-size: 20px;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	margin-bottom: 15px;
+	margin-top: 0px;
+	color: #fff;
+
+}
+
+#sectOne .inner h1 {
+	font-size: 90px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	color: #fff;
+}
+
+#sectOne .inner span {
+	color: #404040;
+}
+
+/**********Page**********/
+#sectOne .page {
+	width: 130px;
+	height: 50px;
+	background-color: #;
+	text-align: center;
+	float: right;
+	margin-top: 44%;
+
+}
+
+#sectOne .page img {
+	height: 80%;
+	cursor: pointer;
+	border-radius: 100px;
+	margin: 5px;
+}
+#sectOne .page img:hover {
+	background-color: #f13f54;
+}
+
+/*************************END-SECTION-ONE*************************/
+
+
+
+/*************************SUB-SECTION*************************/
+/*Pic*Description*/
+
+.subSection {
+	height: 90%;
+	width: 100%;
+	background-color: #;
+}
+
+/**********Pic**********/
+.subSection .left {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #;
+}	
+.subSection .left .pic img {
+	width: 90%;
+	height: 70%;
+	margin: 15% 0;
+	float: right;
+}
+
+/**********Description**********/
+.subSection .right {
+	width: 50%;
+	height: 100%;
+	float: right;
+	background-color: #;
+}
+
+.subSection .right .description {
+	width: 70%;
+	height: 70%;
+	margin: 15% 15%;
+}
+
+.subSection .right .description .headLine {
+	width: 100%;
+	height: 20%;
+}
+
+.subSection .right .description .headLine h2 {
+	font-size: 30px;
+	color: #404040;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+}
+
+.subSection .right .description .headLine h4 {
+	font-size: 16px;
+	color: #999;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+	font-style: italic;
+	font-weight: 100;
+}
+
+.subSection .right .description .text p {
+	font-size: 19px;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+	color: #999;
+}
+.subSection .right .description .button {
+	background-color: #404040;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:35px auto 0;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.subSection .right .description .button:hover {
+	background-color: #f13f54;
+}
+
+/*************************END-SUB-SECTION*************************/
+
+
+/*************************News*************************/
+
+#container .news {
+	width: 90%;
+	height: 3%;
+	background-color: #dfeaf8;
+	margin: 0 auto 0; 
+	text-align: center;
+}
+
+#container .news h1 {
+	font-size: 25px;
+    color: #404040;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+
+}
+
+/*************************END-News*************************/
+
+
+/*************************SliderNews*************************/
+
+#container .slidernews {
+	width: 100%;
+	height: 20%;
+	background-color: #;
+	position: relative;
+	margin: 1% 0 2%;
+}
+
+#container .slidernews .slider {
+    width: 90%;
+    height: 100%;
+    background-color: #dfeaf8;
+    position: absolute;
+    margin: 0 5%;
+    }
+
+#container .slidernews .slider .box1 {
+    width: 50%;
+    height: 100%;
+    background-color: #;
+
+}
+
+#container .slidernews .slider .box1 .left1 {
+    width: 20%;
+    height: 100%;
+    background-color: #;
+    float: left;
+    overflow: hidden;
+}
+
+#container .slidernews .slider .box1 .left1 img {
+    height: 100%;
+}
+
+#container .slidernews .slider .box1 .right1 {
+    width: 80%;
+    height: 100%;
+    background-color: #;
+    float: left;
+}
+
+#container .slidernews .slider .box1 .right1 .h1 {
+    width: 50%;
+    height: 20%;
+    background-color: #;
+    margin-top: 2%;
+}
+
+#container .slidernews .slider .box1 .right1 .p {
+    width: 70%;
+    height: auto;
+    background-color: #;
+    margin-top: 2%;
+}
+
+#container .slidernews .slider .box1 .right1 .h1 h1 {
+    font-size: 18px;
+    padding: 2% 3% 0% 3%;
+    color: #404040;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+
+}
+
+#container .slidernews .slider .box1 .right1 p {
+    font-size: 15px;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+    color: #999;
+    padding: 0% 3%;
+}
+
+
+/*************************END-SliderNews*************************/
+
+
+
+/********************SECTOR-TWO********************/
+/*Title*Colums*Pic*Button*/
+
+
+#container .sectTwo {
+	background-color: #dfeaf8;
+	width: 100%;
+	max-width: 100%;
+	height: 150%;
+	position: relative;
+	overflow: hidden;
+}
+
+/**********Title**********/
+#container .sectTwo .title {
+	width: 250px;
+	height: 2%;
+	background-color: #;
+	margin: 15px auto;
+	text-align: center;
+}
+
+#container .sectTwo .title p {
+	font-size: 27px;
+	font-family: ; 
+	color: #404040;
+}
+
+
+/******************************Colums*****************************/
+
+#container .sectTwo .colums {
+	width: 100%;
+	height: 30%;
+	margin: 0px auto ;
+	position: relative;
+	background-color: #;	
+	display: inline-block;
+}
+/********************Left*******************/
+#container .sectTwo .colums .left {
+	width: 50%;
+	height: 90%;
+	background-color: #;
+	float: left;
+	margin: 20px 0;
+	text-align: center;
+}
+
+#container .sectTwo .colums .left img {
+	height: 100%;
+}
+
+/********************Right*******************/
+#container .sectTwo .colums .right {
+	width: 50%;
+	height: 90%;
+	background-color: #;
+	float: left;
+	margin: 20px 0;
+
+}
+#container .sectTwo .colums .right .description {
+	width: 70%;
+	height: 70%;
+	margin: 5% 15%;
+	background-color: #;
+}
+
+#container .sectTwo .colums .right .headLine {
+	width: 100%;
+	height: 20%;
+	background-color: #;
+	margin-bottom: 3%;
+}
+
+#container .sectTwo .colums .right .headLine h2 {
+	font-size: 30px;
+	color: #404040;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+#container .sectTwo .colums .right .headLine h4 {
+	font-size: 16px;
+	color: #999;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+	font-style: italic;
+	font-weight: 100;
+}
+
+#container .sectTwo .colums .right .text p {
+	font-size: 19px;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+	color: #999;
+}
+#container .sectTwo .colums .right .description .button {
+	background-color: #404040;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:35px auto 0;
+    cursor: pointer;
+    opacity: 0.9;
+}
+#container .sectTwo .colums .right .description .button:hover {
+	background-color: #f13f54;
+}
+
+/******************************END-Colums*****************************/
+
+
+
+/******************************Colums1*****************************/
+
+#container .sectTwo .colums1 {
+	width: 100%;
+	height: 30%;
+	margin: 0px auto ;
+	background-color: #;
+}
+
+/********************Left*******************/
+#container .sectTwo .colums1 .left {
+	width: 50%;
+	height: 90%;
+	background-color: #;
+	float: left;
+	margin: 20px 0;
+}
+
+#container .sectTwo .colums1 .left .description {
+	width: 70%;
+	height: 70%;
+	margin: 5% 15%;
+	background-color: #;
+}
+
+#container .sectTwo .colums1 .left .headLine {
+	width: 100%;
+	height: 20%;
+	background-color: #;
+	margin-bottom: 3%;
+}
+
+#container .sectTwo .colums1 .left .headLine h2 {
+	font-size: 30px;
+	color: #404040;
+	font-family: 'Gloria Hallelujah', cursiv
+}
+
+#container .sectTwo .colums1 .left .headLine h4 {
+	font-size: 16px;
+	color: #999;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+	font-style: italic;
+	font-weight: 100;
+}
+
+#container .sectTwo .colums1 .left .text p {
+	font-size: 19px;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+	color: #999;
+}
+#container .sectTwo .colums1 .left .description .button {
+	background-color: #404040;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:35px auto 0;
+    cursor: pointer;
+    opacity: 0.9;
+}
+#container .sectTwo .colums1 .left .description .button:hover {
+	background-color: #f13f54;
+}
+
+/********************Right*******************/
+#container .sectTwo .colums1 .right {
+	width: 50%;
+	height: 90%;
+	background-color: #;
+	float: left;
+	margin: 20px 0;
+	text-align: center;
+
+}
+
+#container .sectTwo .colums1 .right img {
+	height: 100%;
+}
+
+
+/********************END-Colums1********************/
+
+
+/******************************Colums2*****************************/
+
+#container .sectTwo .colums2 {
+	width: 100%;
+	height: 30%;
+	margin: 0px auto ;
+	background-color: #;
+}
+
+#container .sectTwo .colums2 .left {
+	width: 50%;
+	height: 90%;
+	background-color: #;
+	float: left;
+	margin: 20px 0;
+	text-align: center;
+}
+
+#container .sectTwo .colums2 .left img {
+	height: 100%;
+}
+
+#container .sectTwo .colums2 .right {
+	width: 50%;
+	height: 90%;
+	background-color: #;
+	float: left;
+	margin: 20px 0;
+
+}
+
+#container .sectTwo .colums2 .right .description {
+	width: 70%;
+	height: 70%;
+	margin: 5% 15%;
+	background-color: #;
+}
+
+#container .sectTwo .colums2 .right .headLine {
+	width: 100%;
+	height: 20%;
+	background-color: #;
+	margin-bottom: 3%;
+}
+
+#container .sectTwo .colums2 .right .headLine h2 {
+	font-size: 30px;
+	color: #404040;
+	font-family: 'Gloria Hallelujah', cursiv
+}
+
+#container .sectTwo .colums2 .right .headLine h4 {
+	font-size: 16px;
+	color: #999;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+	font-style: italic;
+	font-weight: 100;
+}
+
+#container .sectTwo .colums2 .right .text p {
+	font-size: 19px;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+	color: #999;
+}
+#container .sectTwo .colums2 .right .description .button {
+	background-color: #404040;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:35px auto 0;
+    cursor: pointer;
+    opacity: 0.9;
+}
+#container .sectTwo .colums2 .right .description .button:hover {
+	background-color: #f13f54;
+}
+
+/******************************END-Colums2*****************************/
+
+/*************************END-SECTION-TWO*************************/
+
+
+/******************************SECTION-THREE*****************************/
+/*Galery*/
+
+#container .sectThree {
+	background-image: url("../Images/SADNICE-MALINA-POLANA-_slika_O_55080759.jpg");
+	background-size: 100%;
+	height: 90%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-attachment: fixed;
+}
+
+#container .sectThree .gallery {
+	width: 25%;
+	height: 60%;
+	background-image: url("../Images/table-made-with-planks_1253-2.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	float: right;
+	margin: 10%;
+	opacity: 0.8;
+
+}
+
+#container .sectThree .gallery .title {
+	width: 100%;
+	height: 33%;
+	background-color: #;
+	
+}
+
+#container .sectThree .gallery .title h1 {
+	font-size: 30px;
+	padding: 7%;
+	color: #404040;
+   font-family: 'Gloria Hallelujah', cursive;
+
+
+
+}
+
+#container .sectThree .gallery .title span {
+	margin-top: 0%;
+}
+
+#container .sectThree .gallery .description {
+	width: 100%;
+	height: 33%;
+	background-color: #;
+	text-align: center;
+}
+
+#container .sectThree .gallery .description p {
+	font-size: 19px;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+	color: #999;
+	padding: 12%;
+}
+
+#container .sectThree .gallery .butt {
+	width: 100%;
+	height: 33%;
+	background-color: #;
+}
+
+#container .sectThree .gallery .butt .button {
+	background-color: #404040;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:50px auto 0;
+    cursor: pointer;
+    opacity: 0.9;
+}
+#container .sectThree .gallery .butt .button:hover {
+	background-color: #f13f54;
+}
+
+/******************************END-SECTION-THREE*****************************/
+
+
+/******************************SUB-SECTION1*****************************/
+/*MapSite*About*Connected*Contact*/
+#container .subSection1 {
+	height: 60%;
+	width: 100%;
+	background-color: #;
+
+}
+
+/**************MapSite*************/
+#container .subSection1 .mapsite {
+	width: 100%;
+	height: 30%;
+	background-color: #444;
+	border-bottom: 1px solid #555; 
+}
+
+#container .subSection1 .mapsite .allmap {
+	width: 70%;
+	height: 100%;
+	background-color: #;
+	margin: 0 auto 0;
+}
+
+
+#container .subSection1 .mapsite .map1 {
+	width: 20%;
+	height: 90%;
+	background-color: #;
+	float: left;
+	text-align: center;
+}
+
+#container .subSection1 .mapsite .map1 h1 {
+	font-size: 18px;
+	padding: 5%;
+	color: #fff;
+   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+
+}
+
+#container .subSection1 .mapsite .map1 p {
+	font-size: 15px;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+	color: #999;
+	padding: 2% 5%;
+
+}
+
+#container .subSection1 .footerWidget {
+	width: 100%;
+	height: 65%;
+	background-color: #;
+}
+
+/**************About*************/
+#container .subSection1 .left {
+	width: 50%;
+	height: 100%;
+	background-color: #444;
+	float: left;
+
+}
+
+#container .subSection1 .left h1 {
+	font-size: 18px;
+	padding: 5%;
+	color: #fff;
+   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+
+}
+
+#container .subSection1 .left p {
+	font-size: 15px;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+	color: #999;
+	padding: 2% 5%;
+
+}
+
+#container .subSection1 .left .about {
+	width: 100%;
+	height: 20%;
+	background-color: #;
+}
+
+#container .subSection1 .left .aboutdesc {
+	width: 100%;
+	height: 20%;
+	background-color: #;
+	margin-top:0;
+}
+
+/**************Connected*************/
+#container .subSection1 .center {
+	width: 25%;
+	height: 100%;
+	background-color: #444;
+	float: left;
+}
+
+#container .subSection1 .center h1 {
+	font-size: 18px;
+	padding: 5%;
+	color: #fff;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+
+}
+
+#container .subSection1 .center p {
+	font-size: 15px;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+	color: #999;
+	padding: 6% 5%;
+
+}
+
+#container .subSection1 .center .connected {
+	width: 100%;
+	height: 13%;
+	background-color: #;
+	margin-top: 5px;
+}
+
+#container .subSection1 .center .connected .logo {
+	width: 20%;
+	height: 100%;
+	background-color: #;
+	text-align: center;
+	float: left;
+}
+
+#container .subSection1 .center .connected .logo img {
+	width: 40%;
+	margin: 4px auto;
+}
+
+#container .subSection1 .center .connected .text {
+	width: 80%;
+	height: 100%;
+	background-color: #;
+	float: left;
+	line-height: 2px;
+}
+
+#container .subSection1 .right {
+	width: 25%;
+	height: 100%;
+	background-color: #444;
+	float: left;
+}
+
+#container .subSection1 .right h1 {
+	font-size: 18px;
+	padding: 5% 0%;
+	color: #fff;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+
+}
+
+#container .subSection1 .right .contact {
+	width: 100%;
+	height: 25%;
+	background-color: #;
+	margin-top: 5px;
+}
+
+#container .subSection1 .right .contact .icon {
+	width: 20%;
+	height: 100%;
+	background-color: #;
+	float: left;
+	text-align: center;
+	
+}
+
+#container .subSection1 .right .contact .icon span {
+	margin: 2px auto 2px;
+	font-size: 30px;
+}
+
+#container .subSection1 .right .contact .text {
+	width: 80%;
+	height: auto;
+	background-color: #;
+	float: left;
+}
+
+#container .subSection1 .right .contact .text p {
+	font-size: 15px;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+	color: #999;
+	padding: 2% 0;
+}
+
+
+#container .footer {
+	width: 100%;
+	height: 8%;
+	background-color: #222;
+	text-align: center;
+	overflow: hidden;
+}
+
+#container .footer p {
+	font-size: 15px;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+	color: #999;
+	padding: 1% 0;
+}
+
+.nav .last-child {
+	border-bottom: none !important;
+}
+.clear {
+    clear: both;
+}
+
